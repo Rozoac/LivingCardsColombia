@@ -17,7 +17,7 @@ class CreatePasswordResetsTable extends Migration
             $table->string('email')->index();
             $table->string('token')->index();
             $table->timestamp('created_at')->nullable();
-        });
+        });s
     }
 
     /**
@@ -30,3 +30,4 @@ class CreatePasswordResetsTable extends Migration
         Schema::drop('password_resets');
     }
 }
+s
